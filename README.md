@@ -1,6 +1,6 @@
 # Chat Application
 
-A simple chat application using socket and express.
+A simple chat application using node, socket and express.
 
 ## Prerequisites
 
