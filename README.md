@@ -1,5 +1,7 @@
 # Chat Application
 
+A simple chat application using socket and express.
+
 ## Prerequisites
 
 Any text editor & git
