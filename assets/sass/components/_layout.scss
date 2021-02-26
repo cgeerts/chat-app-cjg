@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    #app {
+      max-width: 1140px;
+      width: 1140px;
+      padding: 5px;
+    }
+}
+
+h1 {
+    font-family: $default-family;
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: $default-family;
+    background-color: rgb(41, 41, 41);
+
+    margin: 0 0 50px 0; 
+    border: 0;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+
+    @include roundCorners(20px);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #252425;
+    width: 70%;
+    max-height: 600px;
+    border-radius: 12px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    @include breakpoint("mobile") {
+        flex-direction: row;
+    }
+}
+
+#bodyText {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: $default-family;
+}

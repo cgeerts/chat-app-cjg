@@ -1,0 +1,8 @@
+// General Mixins
+@import 'mixins/_mediaqueries.scss';
+@import 'mixins/_vars.scss';
+@import 'mixins/_misc.scss';
+
+// Main Rules
+@import 'components/_layout.scss';
+@import 'components/_chat.scss';
