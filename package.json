@@ -1,0 +1,23 @@
+{
+  "name": "geerts_c_a4_chatapp",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start-dev": "nodemon app",
+    "start-ui": "browser-sync start --proxy 'localhost:5050' --files 'index.html' 'public'",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Carter Geerts",
+  "license": "ISC"
+}
