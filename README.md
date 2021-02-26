@@ -4,7 +4,7 @@ A simple chat application using node, socket and express.
 
 ## Prerequisites
 
-Any text editor & git
+Any text editor & git.
 
 ## Usage
 
