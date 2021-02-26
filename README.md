@@ -1,0 +1,18 @@
+# Chat Application
+
+## Prerequisites
+
+Any text editor & git
+
+## Usage
+
+Clone and type "npm install express" into terminal.<br>
+Then type "npm run dev" and go to "localhost:5050".
+
+## Credits
+
+Carter Geerts • 2021
+
+## License
+
+MIT License
